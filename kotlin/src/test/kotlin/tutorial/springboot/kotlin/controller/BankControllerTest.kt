@@ -42,9 +42,6 @@ internal class BankControllerTest {
                 content { contentType(MediaType.APPLICATION_JSON) }
                 jsonPath("$.trust") { value("0.9") }
             }
-
-        //then
-
     }
 
 }
